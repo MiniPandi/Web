@@ -1,0 +1,25 @@
+{
+	"short_name": "MiniPandi",
+	"name": "MiniPandi",
+	"icons": [
+	  {
+		"src": "pb.png",
+		"type": "image/png",
+		"sizes": "269x269"
+	  },
+	  {
+		"src": "pb.png",
+		"type": "image/png",
+		"sizes": "269x269"
+	  }
+	],
+	"start_url": "https://minipandi.net",
+	"background_color": "#000000",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#000000",
+	"description": "I Am A Panda And i like Coding",
+	"dir": "auto",
+	"lang": "en",
+	"orientation": "portrait-primary"
+  }

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Inter Variable';
+    src: url('fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight:   900;
+    font-style: normal;
+}
+
+* {
+    font-weight:   900;
+    font-family: 'Inter Variable', sans-serif;
+    margin:   0;
+    scroll-behavior: smooth;
+}
+
+body, html {
+    height:   100%;
+}
+
+body {
+    background-color: #0d1117;
+    background-repeat: no-repeat;
+    background-size:   100%   100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    background-image: linear-gradient(145deg, rgb(216,   191,   230), rgb(104,   25,   194));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing:   2px;
+    font-size:   500%;
+    margin-top:   10%;
+    text-align: center;
+}
+
+@media screen and (max-width:  800px) {
+    .title {
+        background-image: linear-gradient(145deg, rgb(216,   191,   230), rgb(104,   25,   194));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        letter-spacing:   2px;
+        font-size:   300%;
+        margin-top:   8%;
+        text-align: center;
+    }
+}
+
+/* Removed unused classes and styles */
