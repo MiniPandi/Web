@@ -26,63 +26,53 @@ body {
 }
 
 .title {
-    background-image: linear-gradient(145deg, rgb(216,   191,   230), rgb(104,   25,   194));
+    color: white;
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
     letter-spacing:   2px;
-    font-size:   500%;
+    font-size:   400%;
     margin-top:   10%;
     text-align: center;
 }
-.projects-title{
-    background-image: linear-gradient(145deg, rgb(216,   191,   230), rgb(25, 39, 194));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    letter-spacing:   2px;
-    font-size:   300%;
-    margin-top:   7%;
-    text-align: center;
-}
-.projects{
-    margin-top: 2%;
-    width: 25%;
+
+.text-div {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    color: white;
-    gap: 10px;
-    flex-wrap: wrap;
+    align-items: center;
 }
-.projects a{
+
+.text {
+    margin-top: 5%;
+    width: 60%;
+    color: white;
+    background-color: #1a2433;
+    padding: 1.5%;
+    border-radius: 10px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.575);
+}
+
+.btn {
     color: white;
     text-decoration: none;
-    font-size: 200%;
 }
 @media screen and (max-width:  800px) {
     .title {
-        background-image: linear-gradient(145deg, rgb(216,   191,   230), rgb(104,   25,   194));
         -webkit-background-clip: text;
         background-clip: text;
-        color: transparent;
         letter-spacing:   2px;
-        font-size:   300%;
+        font-size:   200%;
         margin-top:   8%;
         text-align: center;
     }
-    .projects-title{
-        background-image: linear-gradient(145deg, rgb(216,   191,   230), rgb(25, 39, 194));
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        letter-spacing:   2px;
-        font-size:   200%;
-        margin-top:   10%;
-        text-align: center;
-    }
-    .projects a{
+
+    .text {
+        margin-top: 25%;
+        width: 90%;
         color: white;
-        text-decoration: none;
-        font-size: 150%;
+        background-color: #1a2433;
+        padding: 1.5%;
+        border-radius: 10px;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.575);
     }
 }
